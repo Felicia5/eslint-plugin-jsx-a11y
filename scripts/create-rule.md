@@ -1,7 +1,7 @@
 # Rule Generator
 
 ```bash
-$ node scripts/create-rule.js rule-name --author="Your name" --description="Description of the rule"
+$ node scripts/create-rule.js rule-name --author="Felicia Kovacs" --description="Description of the rule"
 # OR with npm script alias
 $ npm run create -- rule-name --author="Your name" --description="Description of rule"
 ```
