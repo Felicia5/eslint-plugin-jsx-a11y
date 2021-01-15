@@ -5,6 +5,11 @@ $ node scripts/create-rule.js rule-name --author="Felicia Kovacs" --description=
 # OR with npm script alias
 $ npm run create -- rule-name --author="Your name" --description="Description of rule"
 ```
+```bash
+$ node scripts/create-rule.js div-overuse-detector --author="Felicia Kovacs" --description="< div > overuse detector"
+# OR with npm script alias
+$ npm run create -- div-overuse-detector --author="Felicia Kovacs" --description="< div > overuse detector"
+```
 
 This script will generate three files with basic boilerplate for the given rule:
 1. src/rules/${rule-name}.js
