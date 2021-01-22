@@ -36,7 +36,7 @@ module.exports = {
         var options = context.options[0] || {};
         var componentOptions = options.components || [];
         var typeCheck = div.concat(componentOptions);
-        var nodeType = (0, _jsxAstUtils.elementType)(node); // Only check 'div*' elements and custom types.
+        var nodeType = (0, _jsxAstUtils.elementType)(node); //Only check 'div*' elements and custom types.
 
         if (typeCheck.indexOf(nodeType) === -1) {
           return;
